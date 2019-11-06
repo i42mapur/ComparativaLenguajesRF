@@ -1,2 +1,7 @@
 # ComparativaLenguajesRF
-Comparativa de Lenguajes para implementar Random Forest
+Comparativa de Lenguajes para implementar Random Forest.
+
+Para el Trabajo de fin de Máster Universitario en Visualización de Datos y Big Data (Visual Analytics and Big Data) he llevado a cabo una comparativa de lenguajes de programación y sistemas operativos a la hora de implementar el algoritmo Random Forest (bosques aleatorios).
+Aquí se muestra el código fuente en los distintos lenguajes, los datos de los resultados obtenidos en las comparativas así como gráficas generadas a partir de esos datos, que ayudan a entender las diferencias entre los lenguajes y sistemas operativos utilizados.
+Los lenguajes de programación comparados han sido Java, utilizando la librería de Weka; R, utilizando la librería RandomForest; y Python, utilizando la librería Scikit Learn. A la hora de comparar se ha querido comparar no sólo los tiempos de ejecución en cada uno de los lenguajes, sino también el uso de CPU y memoria.
+Adicionalmente, estas tres mediciones de estos tres lenguajes de programación se han llevado a cabo en dos sistemas operativos: Windows y Linux. El hardware utilizado ha sido un portátil HP 250 G5, con procesador Intel Core i5-6200U a 2.30 GHz y 8GB de memoria RAM. Este portátil cuenta con dos sistemas operativos instalados de manera independiente (no a través de máquina virtual): un Linux Ubuntu 16.04 de 64bits y un Windows 10 Home de 64bits. De esta forma se pretende ver también la diferencia en tiempo de ejecución y consumo de recursos de estos lenguajes en cada uno de los sistemas operativos.
